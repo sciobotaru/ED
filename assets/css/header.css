@@ -9,6 +9,9 @@
     top: 0;
     width: 100%;
     border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:3px 5px 20px rgb(63, 63, 255);  
   }
 
 
@@ -16,16 +19,17 @@
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
-    border: 3px solid grey;
+    border: 1px solid grey;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     float: left;
     width: 80%;
-    background: #dde1f0;
+    background:azure;
 }
 
 form.example input[type=text]:focus {
     outline: none;
+    background-color: rgb(249, 250, 250);
 }
 
 form.example button {
@@ -35,7 +39,7 @@ form.example button {
     background: #1d2430;
     color: white;
     font-size: 17px;
-    border: 3px solid grey;
+    border: 1px solid grey;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     border-left: none;
@@ -45,7 +49,7 @@ form.example button {
 form.example{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
-    top: 21px; /* Position the navbar at the top of the page */
+    top: 25px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 

@@ -2,12 +2,12 @@ div.filter{
     /*opacity: 0.5;*/
     width: 150px;
     height: 400px;
-    border: solid 3px;
+    border: solid 1px;
     border-color: orange;
     margin:10px;
     margin-top: 80px;
     border-radius: 5px;
-    background: rgb(226, 252, 189); 
+    background: azure;
     position: inherit;
 }
 
