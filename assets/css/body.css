@@ -1,0 +1,21 @@
+body  {
+    background-image: url("../img/background.png");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+h1#orange{
+	color: rgb(255, 115, 21);
+}
+
+h1#blue{
+	color: rgb(42, 80, 253);
+}
+
+h1#yellow{
+	color: rgb(246, 250, 12);
+}
+
+p{
+    color: rgb(235, 11, 5);
+    font-weight: bold;
+}
