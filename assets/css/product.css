@@ -1,5 +1,5 @@
 section.products-area{
     border: solid 3px orange;
-    height: 300px;
+    height: 3000px; /* to enable scrolling*/
     width: 300px;
 }

@@ -1,18 +1,17 @@
-.search-header{
-    width: 50%;
-}
-
 .top{
     height: 70px;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(236, 19, 19);
+    background-image: url("../img/background.png");
     position: fixed;
     top: 0;
     width: 100%;
+    border-radius: 0px;
   }
+
+
 
 form.example input[type=text] {
     padding: 10px;
@@ -46,7 +45,7 @@ form.example button {
 form.example{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    top: 21px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 
