@@ -1,12 +1,14 @@
-body  {
+html, body  {
     background-image: url("../img/background.png");
     background-color: rgb(105, 105, 105);
     background-attachment: fixed;
+    min-height: 100%;
 }
 .body{
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 70px;
-    background: rgb(248, 182, 182);
-    opacity: 0.5;
-    width: 100%;
+    border: azure solid 1px;
+    width: 90%;
     height: 2000px;
 }
