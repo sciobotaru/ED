@@ -1,16 +1,14 @@
 .filter{
     position: fixed;
-    /*border: aquamarine solid 1px;*/
-    height: 800px;
-    width: 200px;
+    width: 170px;
     margin: 10px;
     background: linear-gradient(90deg, rgb(44, 45, 49), rgb(108, 108, 109));
+    opacity: 0.9;
 }
 
 
 /* Filter title */
 div.title{
-    border: rgb(10, 10, 10) solid 1px;
     height: 50px;
     width: inherit;
     color: white;
@@ -19,14 +17,15 @@ p.title{
     margin-left: 12px;
     margin-top: 10px;
     font-size: 20px;
+    cursor: default;
 }
 
 /* Filter item */
 div.item{
-    border: rgb(0, 0, 0) solid 1px;
-    height: 30px;
+    height: 22px;
     width: inherit;
     color: white;
+    cursor: pointer;
 }
 div.item:hover{
     color:rgb(0, 173, 239);
@@ -37,6 +36,11 @@ p.item{
     margin-top: 5px;
     font-size: 13px;
 }
+
+div.item:hover i.arrow{
+    border-color: rgb(0, 173, 239);
+}
+/* Arrow from items*/
 .arrow {
     float: right;
     border: solid white;
@@ -48,4 +52,18 @@ p.item{
 .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+/*Separator*/
+.separator{
+    width: inherit;
+    height: 3px;
+    background: linear-gradient(180deg, rgb(23, 23, 24), rgb(161, 161, 161));
 }
