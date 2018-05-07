@@ -1,0 +1,51 @@
+.filter{
+    position: fixed;
+    /*border: aquamarine solid 1px;*/
+    height: 800px;
+    width: 200px;
+    margin: 10px;
+    background: linear-gradient(90deg, rgb(44, 45, 49), rgb(108, 108, 109));
+}
+
+
+/* Filter title */
+div.title{
+    border: rgb(10, 10, 10) solid 1px;
+    height: 50px;
+    width: inherit;
+    color: white;
+}
+p.title{
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Filter item */
+div.item{
+    border: rgb(0, 0, 0) solid 1px;
+    height: 30px;
+    width: inherit;
+    color: white;
+}
+div.item:hover{
+    color:rgb(0, 173, 239);
+}
+
+p.item{
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.arrow {
+    float: right;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
