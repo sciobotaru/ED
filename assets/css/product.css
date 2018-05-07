@@ -1,5 +1,24 @@
-section.products-area{
+.products{
+    margin-left: 195px;
+    margin-top: 15px;
     border: solid 1px orange;
-    height: 3000px; /* to enable scrolling*/
-    width: 300px;
+    width: inherit - 200px;
+}
+
+.product{
+    height: 400px;
+    border: white solid 1px;
+    margin: 5px;
+    width: 33%;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+.product:hover{
+    border-color: blue;
+}
+.fa-columns{
+    border: azure solid 1px;
+}
+.row{
+    border: azure solid 1px;
 }
