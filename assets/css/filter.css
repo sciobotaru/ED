@@ -8,10 +8,39 @@
 }
 div.electronice{
     position: fixed;
-    display: block;
+    display: none;
     margin: -270px 0 0 170px;
     background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
-    width: 170px;
+    width: 200px;
+    box-shadow: 5px 5px 20px rgb(26, 26, 26);
+    border-radius: 2px;
+}
+div.electrocasnice{
+    position: fixed;
+    display: none;
+    margin: -240px 0 0 170px;
+    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    width: 200px;
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+    border-radius: 2px;
+}
+div.pret{
+    position: fixed;
+    display: none;
+    margin: -210px 0 0 170px;
+    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    width: 200px;
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+    border-radius: 2px;
+}
+div.magazin{
+    position: fixed;
+    display: none;
+    margin: -180px 0 0 170px;
+    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    width: 200px;
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+    border-radius: 2px;
 }
 
 
@@ -19,7 +48,7 @@ div.electronice{
 div.title{
     height: 50px;
     width: inherit;
-    color: white;
+    color: rgb(236, 236, 236);
 }
 p.title{
     margin-left: 12px;
@@ -32,7 +61,7 @@ p.title{
 div.item{
     height: 22px;
     width: inherit;
-    color: white;
+    color: rgb(236, 236, 236);
     cursor: pointer;
 }
 div.item:hover{
@@ -52,7 +81,7 @@ div.item:hover i.arrow{
 /* Arrow from items*/
 .arrow {
     float: right;
-    border: solid white;
+    border: solid rgb(236, 236, 236);
     border-width: 0 2px 2px 0;
     padding: 3px;
     margin-right: 15px;
