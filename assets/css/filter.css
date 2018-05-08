@@ -67,6 +67,18 @@ div.item{
 div.item:hover{
     color:rgb(0, 173, 239);
 }
+div.menu-electronice:hover ~ div.electronice{
+    display: block;
+}
+div.menu-electrocasnice:hover ~ div.electrocasnice{
+    display:block;
+}
+div.menu-pret:hover ~ div.pret{
+    display:block;
+}
+div.menu-magazin:hover ~ div.magazin{
+    display:block;
+}
 
 p.item{
     margin-left: 12px;
