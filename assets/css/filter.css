@@ -2,8 +2,16 @@
     position: fixed;
     width: 170px;
     margin: 10px;
-    background: linear-gradient(90deg, rgb(44, 45, 49), rgb(108, 108, 109));
+    background: linear-gradient(90deg, rgb(31, 31, 32), rgb(77, 77, 77));
     opacity: 0.9;
+    border-radius: 3px;
+}
+div.electronice{
+    position: fixed;
+    display: block;
+    margin: -270px 0 0 170px;
+    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    width: 170px;
 }
 
 
@@ -40,6 +48,7 @@ p.item{
 div.item:hover i.arrow{
     border-color: rgb(0, 173, 239);
 }
+
 /* Arrow from items*/
 .arrow {
     float: right;
