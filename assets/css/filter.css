@@ -2,42 +2,43 @@
     position: fixed;
     width: 170px;
     margin: 10px;
-    background: linear-gradient(90deg, rgb(31, 31, 32), rgb(77, 77, 77));
+    background: linear-gradient(90deg, rgb(37, 37, 37), rgb(61, 61, 61));
     opacity: 0.9;
     border-radius: 3px;
+    box-shadow: 5px 5px 20px rgb(26, 26, 26);
 }
 div.electronice{
     position: fixed;
-    display: none;
-    margin: -270px 0 0 170px;
-    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    visibility: hidden;
+    margin: -300px 0 0 170px;
+    background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 5px 5px 20px rgb(26, 26, 26);
     border-radius: 2px;
 }
 div.electrocasnice{
     position: fixed;
-    display: none;
-    margin: -240px 0 0 170px;
-    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    visibility: hidden;
+    margin: -270px 0 0 170px;
+    background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
     border-radius: 2px;
 }
 div.pret{
     position: fixed;
-    display: none;
-    margin: -210px 0 0 170px;
-    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    visibility: hidden;
+    margin: -240px 0 0 170px;
+    background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
     border-radius: 2px;
 }
 div.magazin{
     position: fixed;
-    display: none;
-    margin: -180px 0 0 170px;
-    background: linear-gradient(90deg, rgb(94, 94, 94), rgb(134, 134, 134));
+    visibility: hidden;
+    margin: -210px 0 0 170px;
+    background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
     border-radius: 2px;
@@ -61,26 +62,40 @@ p.title{
 div.item{
     height: 22px;
     width: inherit;
-    color: rgb(236, 236, 236);
+    color: white;
     cursor: pointer;
 }
 div.item:hover{
     color:rgb(0, 173, 239);
 }
 div.menu-electronice:hover ~ div.electronice{
-    display: block;
+    visibility: visible;
+    -webkit-transition: 0.1s ease 0.1s; /*Safari*/  
+    transition: 0.1s ease 0.1s;
 }
 div.menu-electrocasnice:hover ~ div.electrocasnice{
-    display:block;
+    visibility: visible;
+    -webkit-transition: 0.1s ease 0.1s; /*Safari*/
+    transition: 0.1s ease 0.1s;
 }
 div.menu-pret:hover ~ div.pret{
-    display:block;
+    visibility: visible;
+    -webkit-transition: 0.1s ease 0.1s; /*Safari*/
+    transition: 0.1s ease 0.1s;
 }
 div.menu-magazin:hover ~ div.magazin{
-    display:block;
+    visibility: visible;
+    -webkit-transition: 0.1s ease 0.1s; /*Safari*/
+    transition: 0.1s ease 0.1s;
 }
 
 p.item{
+    margin-left: 12px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+span.item{
     margin-left: 12px;
     margin-top: 5px;
     font-size: 13px;
@@ -116,4 +131,7 @@ div.item:hover i.arrow{
     width: inherit;
     height: 3px;
     background: linear-gradient(180deg, rgb(23, 23, 24), rgb(161, 161, 161));
+}
+.checkbox_pointer, input{
+    cursor: pointer;
 }
