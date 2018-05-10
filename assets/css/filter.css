@@ -10,7 +10,7 @@
 div.electronice{
     position: fixed;
     visibility: hidden;
-    margin: -300px 0 0 170px;
+    margin: -33.5px 0 0 170px;
     background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 5px 5px 20px rgb(26, 26, 26);
@@ -19,7 +19,7 @@ div.electronice{
 div.electrocasnice{
     position: fixed;
     visibility: hidden;
-    margin: -270px 0 0 170px;
+    margin: -33.5px 0 0 170px;
     background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
@@ -28,7 +28,7 @@ div.electrocasnice{
 div.pret{
     position: fixed;
     visibility: hidden;
-    margin: -240px 0 0 170px;
+    margin: -33.5px 0 0 170px;
     background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
@@ -37,7 +37,7 @@ div.pret{
 div.magazin{
     position: fixed;
     visibility: hidden;
-    margin: -210px 0 0 170px;
+    margin: -33.5px 0 0 170px;
     background: linear-gradient(90deg, rgb(71, 71, 71), rgb(83, 83, 83));
     width: 200px;
     box-shadow: 3px 3px 4px rgb(26, 26, 26);
@@ -68,22 +68,22 @@ div.item{
 div.item:hover{
     color:rgb(0, 173, 239);
 }
-div.menu-electronice:hover ~ div.electronice{
+.menu-electronice:hover .electronice{
     visibility: visible;
     -webkit-transition: 0.1s ease 0.1s; /*Safari*/  
     transition: 0.1s ease 0.1s;
 }
-div.menu-electrocasnice:hover ~ div.electrocasnice{
+.menu-electrocasnice:hover .electrocasnice{
     visibility: visible;
     -webkit-transition: 0.1s ease 0.1s; /*Safari*/
     transition: 0.1s ease 0.1s;
 }
-div.menu-pret:hover ~ div.pret{
+.menu-pret:hover  .pret{
     visibility: visible;
     -webkit-transition: 0.1s ease 0.1s; /*Safari*/
     transition: 0.1s ease 0.1s;
 }
-div.menu-magazin:hover ~ div.magazin{
+.menu-magazin:hover .magazin{
     visibility: visible;
     -webkit-transition: 0.1s ease 0.1s; /*Safari*/
     transition: 0.1s ease 0.1s;
