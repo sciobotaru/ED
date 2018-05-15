@@ -3,15 +3,15 @@
     margin-top: 15px;
     border: solid 1px orange;
     width: inherit - 200px;
+    overflow: auto;
 }
 
 .product{
     height: 400px;
-    border: white solid 1px;
-    margin: 5px;
-    width: 33%;
-    border-radius: 2px;
-    overflow: hidden; 
+    background-color: whitesmoke;
+    margin: 1px;
+    width: 32.5%;
+    float: left;
 }
 .product:hover{
     border-color: blue;
